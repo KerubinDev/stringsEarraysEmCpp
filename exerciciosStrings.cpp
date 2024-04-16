@@ -1,11 +1,12 @@
 #include <iostream>
-#include <string>
+using namespace std;
 
 int main(){
-    std::string palavra;
+    string palavra;
+    cout << "Digite uma palavra:" << endl;
+    cin >> palavra;
 
-    printf("Digite uma palavra");
-    scanf("%s", palavra);
-
-    printf("A quantidade de caracteres são: %zu\n", palavra.size());
+    cout << "A palavra digitada foi:\n" << palavra << endl;
+   return 0; 
 }
+
